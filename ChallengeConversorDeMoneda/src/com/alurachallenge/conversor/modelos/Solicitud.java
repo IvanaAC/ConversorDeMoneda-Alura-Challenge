@@ -11,9 +11,9 @@ import java.net.http.HttpResponse;
 
 public class Solicitud {
     public JsonObject buscaMonedas(String busqueda) throws IOException, InterruptedException {
+        String apiKey= "Aquí va tu clave";
         URI direccion = URI.create (
-                "https://v6.exchangerate-api.com/v6/072ba534b49aaadbf259626d/latest/" + busqueda + "/");
-
+                "https://v6.exchangerate-api.com/v6/" + apiKey + "/latest/" + busqueda + "/");
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(direccion)
