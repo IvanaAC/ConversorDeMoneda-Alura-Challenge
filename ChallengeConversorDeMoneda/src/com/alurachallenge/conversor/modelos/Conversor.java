@@ -17,8 +17,8 @@ public class Conversor {
         try {
             Monedas monedas = obtenerMonedas(divisa);
             double monto = solicitarMonto(entrada);
-
             Double tasaDeConversion = obtenerTasaConversion(monedas, divisaDos);
+
             if (tasaDeConversion != null) {
                 realizarConversion(monto, divisa, divisaDos, tasaDeConversion);
             } else {
@@ -62,17 +62,13 @@ public class Conversor {
 
     private void realizarConversion (double monto, String divisa, String divisaDos, Double tasaDeConversion){
         double valorConvertido = monto * tasaDeConversion;
-        String fechaHora = obtenerFechaHora();
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
+        String fechaHora = LocalDateTime.now().format(dtf);
         String registro = String.format("Fecha/Hora: %s | %.2f %s => %.2f %s", fechaHora,
                 monto, divisa, valorConvertido, divisaDos);
         System.out.printf("El valor de %.2f %s en %s es: %.2f%n", monto, divisa,
                 divisaDos, valorConvertido);
         historialConversiones.add(registro);
-    }
-
-    private String obtenerFechaHora(){
-        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
-        return LocalDateTime.now().format(dtf);
     }
 
     public void mostrarHistorial() {
