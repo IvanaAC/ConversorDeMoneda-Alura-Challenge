@@ -24,8 +24,8 @@ public class Principal {
                 5)-Sol Peruano =>> Guaraní Paraguayo
                 6)-Peso Uruguayo =>> Dolar Estadounidense
                 7)-Otras opciones de divisas
-                8)-Ver el "Historial de conversiones"
-                9)-Imprimir el "Historial de conversiones"
+                8)-Mostrar el "Historial de conversiones"
+                9)-Guardar el "Historial de conversiones"
                 10) Salir.
                 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
                 """;
@@ -46,7 +46,6 @@ public class Principal {
                 case 8 -> conversor.mostrarHistorial();
                 case 9 ->generadorDeArchivo.guardarArchivos(conversor);
                 case 10 -> salir = true;
-
                 default -> System.out.println("""
                         La opción seleccionada no existe. 
                         Por favor, elija una opción válida.
