@@ -42,7 +42,7 @@
 </ol>
 
 <h2>INTERACTUANDO CON LA APLICACIÓN</h2>
-<h3>1-Convertir moneda</h3>
+<h2>1-Convertir moneda</h2>
 <p>El programa presenta el siguiente menú interactivo:</p>
 <img width=300 src="https://github.com/IvanaAC/ConversorDeMoneda-Alura-Challenge/assets/144395133/aac6c0f5-4417-45b1-b576-86cd1b91a2ef">
 
@@ -56,7 +56,8 @@
   <br>Ingresa las divisas y la cantidad a convertir cuando la aplicación lo solicite. 
   <br>Cuentas con la posibilidad de escribir las divisas en mayúsculas o minúsculas.</p>
 <img height=140 src="https://github.com/IvanaAC/ConversorDeMoneda-Alura-Challenge/assets/144395133/b6aac2b7-c653-4d28-b1a3-8430541f86ca">
-<p><br>Aquí tiene algunas divisas para probar: </p>
+
+<h3>Aquí tiene algunas divisas para probar: </h3>
 <ul>
   <li>AUD	- Australian Dollar - Australia</li>
   <li>CRC - Costa Rican Colon - Costa Rica</li>
@@ -68,11 +69,31 @@
 <p>Si deseas hacer pruebas con otras monedas, puedes encontrar más códigos en la página www.exchangerate-api.com , 
   en la sección Supported Currencies . </p>
 
-<p>¿Qué ocurre si ingresas una moneda que no se encuentre en el listado de la API?
-<br>En ese caso, obtendrás el siguiente mensaje: </p>
+<h3>¿Qué ocurre si ingresas una moneda que no se encuentre en el listado de la API?</h3>
+<p>En ese caso, obtendrás el siguiente mensaje: </p>
+<img height=140 src="https://github.com/IvanaAC/ConversorDeMoneda-Alura-Challenge/assets/144395133/de80a34a-ea9f-4c8e-93c0-6ed9d2bbeb58">
 
+<h2>2-Mostrar el Historial de Conversiones</h2>
+<p>En caso de que quieras ver nuevamente las conversiones que has realizado, entonces 
+selecciona la <strong>opción 8</strong>, de ésta manera podrás observar
+los cambios de moneda que has realizado.</p>
+<img src= "https://github.com/IvanaAC/ConversorDeMoneda-Alura-Challenge/assets/144395133/978ec2fd-0636-4336-9835-88f0215bd4a7">
 
+<p>Si no realizaste ninguna conversión, recibirás otro mensaje.</p>
+<img src= "https://github.com/IvanaAC/ConversorDeMoneda-Alura-Challenge/assets/144395133/7dc03936-6891-4808-af54-7a69bc78abb0">
 
+<h2>3-Guardar el Historial de Conversiones</h2>
+<p>Con ésta opción puedes guardar el historial en dos archivos, uno en formato .json y otro 
+en formato .txt.
+<br>Ambos se guardan dentro de la carpeta donde copiaste el repositorio con los archivos fuente.</p>
+<img height=70 src= "https://github.com/IvanaAC/ConversorDeMoneda-Alura-Challenge/assets/144395133/06e26efd-e02a-4fc5-b0f0-f290cd7f7a01">
+<br><img  height=350 src= "https://github.com/IvanaAC/ConversorDeMoneda-Alura-Challenge/assets/144395133/7e62e711-3fec-4a0d-a8e2-8c25092fc328">
 
+<h2>4-Opción inválida</h2>
+<p>¿Qué sucede si elijes una opción que no es valida? Saldrá un mensaje que 
+  te permitirá volver a ingresar otra opción.</p>
+<img src= "https://github.com/IvanaAC/ConversorDeMoneda-Alura-Challenge/assets/144395133/30863eba-93c3-4cb5-be52-f94a839a4855">
 
-
+<h2>5-Salir de la aplicacíon</h2>
+<p>Cuando decidas salir de la aplicacion, solo debes seleccionar la <strong>opción 10</strong>.</p> 
+<img height=90 src= "https://github.com/IvanaAC/ConversorDeMoneda-Alura-Challenge/assets/144395133/0cf98250-daa4-46a1-955c-cfc753f1dff4">
