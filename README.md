@@ -1,4 +1,5 @@
-<h1 align="center">CHALLENGE CONVERSOR</h1>
+<h1 align="center">CHALLENGE CONVERSOR DE MONEDA</h1>
+
 <h2>DESCRIPCIÓN</h2>
 <p>El Conversor de Monedas es una aplicación Java diseñada para realizar conversiones
   de diferentes monedas utilizando tasas de cambio actuales. Además, permite mantener 
