@@ -36,7 +36,7 @@
     Puedes añadirlas a tu proyecto mediante un gestor de dependencias o 
     agregarlas manualmente</li>
   <li>Después, abre el archivo de la clase "Solicitud" en tu IDE de Java.
-    En apiKey debes reemplazar “Aquí va tu clave” con la clave API que 
+    <br>En apiKey debes reemplazar “Aquí va tu clave” con la clave API que 
     has generado en ExchangeRate-Api.</li>
   <li>Finalmente, abre el archivo de la clase "Principal" y ejecútalo.</li>  
 </ol>
@@ -45,9 +45,34 @@
 <h3>1-Convertir moneda</h3>
 <p>El programa presenta el siguiente menú interactivo:</p>
 <img width=300 src="https://github.com/IvanaAC/ConversorDeMoneda-Alura-Challenge/assets/144395133/aac6c0f5-4417-45b1-b576-86cd1b91a2ef">
+
 <p>Para seleccionar las opciones debes ingresar el número correspondiente
   y seguir las instrucciones.
-  Las opciones del 1 al 6 tienen divisas predeterminadas, si seleccionas
+  <br><br>Las<strong> opciones del 1 al 6</strong> tienen divisas predeterminadas, si seleccionas
   una de ellas obtendrás un resultado similar a estos: </p>
+<img height=80 src="https://github.com/IvanaAC/ConversorDeMoneda-Alura-Challenge/assets/144395133/f437ecda-17f8-43a8-848d-f91473ccda86">
+<img height=80 src="https://github.com/IvanaAC/ConversorDeMoneda-Alura-Challenge/assets/144395133/9a422a07-2cf8-4532-ac80-4dc159f9fa4b">
+<p>Con la <strong>opción 7</strong> puedes utilizar divisas que no se encuentran entre las predeterminadas.
+  <br>Ingresa las divisas y la cantidad a convertir cuando la aplicación lo solicite. 
+  <br>Cuentas con la posibilidad de escribir las divisas en mayúsculas o minúsculas.</p>
+<img height=140 src="https://github.com/IvanaAC/ConversorDeMoneda-Alura-Challenge/assets/144395133/b6aac2b7-c653-4d28-b1a3-8430541f86ca">
+<p><br>Aquí tiene algunas divisas para probar: </p>
+<ul>
+  <li>AUD	- Australian Dollar - Australia</li>
+  <li>CRC - Costa Rican Colon - Costa Rica</li>
+  <li>CUP - Cuban Peso - Cuba</li>
+  <li>HNL - Honduran Lempira - Honduras</li>
+  <li>JPY - Japanese Yen - Japan</li>
+  <li>KRW - South Korean Won - South Korea</li>
+</ul>
+<p>Si deseas hacer pruebas con otras monedas, puedes encontrar más códigos en la página www.exchangerate-api.com , 
+  en la sección Supported Currencies . </p>
+
+<p>¿Qué ocurre si ingresas una moneda que no se encuentre en el listado de la API?
+<br>En ese caso, obtendrás el siguiente mensaje: </p>
+
+
+
+
 
 
